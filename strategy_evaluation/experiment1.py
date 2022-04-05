@@ -77,7 +77,7 @@ def experiment1():
     plt.xlabel("Date")
     plt.ylabel("Normalized Portfolio Value")
     plt.title("Experiment 1")
-    plt.savefig("experiment1.png")
+    plt.savefig("images/experiment1.png")
 
 
 

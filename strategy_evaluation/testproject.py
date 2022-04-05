@@ -23,5 +23,5 @@ if __name__ == "__main__":
     # Manual Strategy In/Out sample
     run()
     # Experiemnt trials
-    #e1.experiment1()
-    #e2.experiment2()
+    e1.experiment1()
+    e2.experiment2()

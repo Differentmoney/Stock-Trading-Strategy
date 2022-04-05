@@ -50,7 +50,7 @@ def experiment2():
     portval[1].plot(label="0.005")
     portval[2].plot(label="0.05")
     ax.legend(loc='best')
-    plt.savefig("experiment2.png")
+    plt.savefig("images/experiment2.png")
 
     
 

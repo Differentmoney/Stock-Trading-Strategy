@@ -1,32 +1,4 @@
-""""""  		  	   		  	  			  		 			     			  	 
-"""  		  	   		  	  			  		 			     			  	 
-Template for implementing StrategyLearner  (c) 2016 Tucker Balch  		  	   		  	  			  		 			     			  	 
-  		  	   		  	  			  		 			     			  	 
-Copyright 2018, Georgia Institute of Technology (Georgia Tech)  		  	   		  	  			  		 			     			  	 
-Atlanta, Georgia 30332  		  	   		  	  			  		 			     			  	 
-All Rights Reserved  		  	   		  	  			  		 			     			  	 
-  		  	   		  	  			  		 			     			  	 
-Template code for CS 4646/7646  		  	   		  	  			  		 			     			  	 
-  		  	   		  	  			  		 			     			  	 
-Georgia Tech asserts copyright ownership of this template and all derivative  		  	   		  	  			  		 			     			  	 
-works, including solutions to the projects assigned in this course. Students  		  	   		  	  			  		 			     			  	 
-and other users of this template code are advised not to share it with others  		  	   		  	  			  		 			     			  	 
-or to make it available on publicly viewable websites inclu ding repositories  		  	   		  	  			  		 			     			  	 
-such as github and gitlab.  This copyright statement should not be removed  		  	   		  	  			  		 			     			  	 
-or edited.  		  	   		  	  			  		 			     			  	 
-  		  	   		  	  			  		 			     			  	 
-We do grant permission to share solutions privately with non-students such  		  	   		  	  			  		 			     			  	 
-as potential employers. However, sharing with other current or future  		  	   		  	  			  		 			     			  	 
-students of CS 7646 is prohibited and subject to being investigated as a  		  	   		  	  			  		 			     			  	 
-GT honor code violation.  		  	   		  	  			  		 			     			  	 
-  		  	   		  	  			  		 			     			  	 
------do not edit anything above this line---  		  	   		  	  			  		 			     			  	 
-  		  	   		  	  			  		 			     			  	 
-Student Name: Tucker Balch (replace with your name)  		  	   		  	  			  		 			     			  	 
-GT User ID: axiao31		  	   		  	  			  		 			     			  	 
-GT ID: 903388886 		  	   		  	  			  		 			     			  	 
-"""  		  	   		  	  			  		 			     			  	 
-  		  	   		  	  			  		 			     			  	 
+  	   		  	  			  		 			     			  	 
 import datetime as dt  		  	   		  	  			  		 			     			  	 
 import random  		  	   		  	  			  		 			     			  	 
   		  	   		  	  			  		 			     			  	 
@@ -37,21 +9,7 @@ import matplotlib.pyplot as plt
 from indicators import *   		 
 from marketsimcode import compute_portvals, get_portfolio_stats 	  			  		 			     			  	 
   		  	   		  	  			  		 			     			  	 
-class ManualStrategy(object):  		  	   		  	  			  		 			     			  	 
-    """  		  	   		  	  			  		 			     			  	 
-    A strategy learner that can learn a trading policy using the same indicators used in ManualStrategy.  		  	   		  	  			  		 			     			  	 
-  		  	   		  	  			  		 			     			  	 
-    :param verbose: If “verbose” is True, your code can print out information for debugging.  		  	   		  	  			  		 			     			  	 
-        If verbose = False your code should not generate ANY output.  		  	   		  	  			  		 			     			  	 
-    :type verbose: bool  		  	   		  	  			  		 			     			  	 
-    :param impact: The market impact of each transaction, defaults to 0.0  		  	   		  	  			  		 			     			  	 
-    :type impact: float  		  	   		  	  			  		 			     			  	 
-    :param commission: The commission amount charged, defaults to 0.0  		  	   		  	  			  		 			     			  	 
-    :type commission: float  		  	   		  	  			  		 			     			  	 
-    """  	
-    def author():
-        return 'axiao31'	 
-         	   		  	  			  		 			     			  	 
+class ManualStrategy(object):  		  	   		  	  			  		 			     			  	 		  		 			     			  	 
     # constructor  		  	   		  	  			  		 			     			  	 
     def __init__(self, verbose=False, impact=0.0, commission=0.0):  		  	   		  	  			  		 			     			  	 
         """  		  	   		  	  			  		 			     			  	 
