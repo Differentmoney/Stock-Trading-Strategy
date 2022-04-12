@@ -52,6 +52,7 @@ def compute_portvals(df_trades, sd, ed, start_val=100000,  commission=9.95,impac
 
     return portvals
 
+# Calculate cumulative return, standard daily return, average daily return and sharpe ratio
 def get_portfolio_stats(port_val, daily_rf=0, samples_per_year=252):
     avg_daily_ret=0
     std_daily_ret=0
